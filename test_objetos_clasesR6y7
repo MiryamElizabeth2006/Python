@@ -1,0 +1,31 @@
+
+from objetos_clasesR6 import Auto
+
+
+#mi_auto = Auto("Toyota", "Corolla", 2022)
+
+# print(mi_auto.mostrar_informacion())
+# print(mi_auto.actualizar_kilometraje(50))
+# print(mi_auto.realizar_viaje(200000))
+# print(mi_auto.estado_auto())
+# Crear un auto nuevo del año actual
+
+#Reto 7
+mi_auto1 = Auto("Toyota", "Model", 2019)
+mi_auto2 = Auto("Model", "Model", 2020)
+
+
+auto_toyota = Auto.crear_auto_toyota("Suprax")
+print(auto_toyota.__dict__)
+
+mi_auto1.actualizar_kilometraje(50)
+mi_auto2.actualizar_kilometraje(75)
+
+print(Auto.comparar_kilometraje(mi_auto1, mi_auto2))
+
+auto_segunda_mano = Auto.auto_de_segunda("Corolla", 35000)
+print(auto_segunda_mano.mostrar_informacion())
+
+estado = Auto.estado_auto(auto_segunda_mano.kilometraje)
+print(f"Estado del auto de segunda mano: {estado}")
+
