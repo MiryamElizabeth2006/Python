@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./Retos/Reto5/test_",
+        "./Retos/Reto5/test_",
+        "./EjerciciosPOO/clase1"
+    ]
+}
